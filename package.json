@@ -1,6 +1,6 @@
 {
   "name": "ember-test-helpers",
-  "private": true,
+  "version": "0.5.19",
   "description": "Helpers for testing Ember.js applications",
   "main": "lib/ember-test-helpers.js",
   "repository": {
@@ -21,14 +21,16 @@
   "license": "Apache Version 2.0 and MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "broccoli": "^0.13.0",
     "broccoli-babel-transpiler": "^5.4.5",
     "broccoli-funnel": "^0.2.13",
+    "broccoli-jshint": "^1.1.1",
     "broccoli-merge-trees": "^0.1.4",
     "broccoli-sourcemap-concat": "^0.4.3",
-    "ember-cli": "^0.2.7",
+    "ember-cli": "1.13.13",
     "ember-cli-release": "^0.2.4",
-    "ember-try": "0.0.8",
-    "testem": "^0.6.19"
+    "ember-try": "0.0.8"
+  },
+  "dependencies": {
+    "klassy": "^0.1.3"
   }
 }

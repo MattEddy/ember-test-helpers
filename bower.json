@@ -1,6 +1,6 @@
 {
   "name": "ember-test-helpers",
-  "version": "0.5.16",
+  "version": "0.5.19",
   "authors": [
     "Dan Gebhardt",
     "Robert Jackson",
@@ -24,7 +24,6 @@
     "tests"
   ],
   "dependencies": {
-    "klassy": "cerebris/klassy.js#0.1.0",
     "ember": "^2.2.0"
   },
   "devDependencies": {
